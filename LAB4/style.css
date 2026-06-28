@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background:#f4f4f4;
+}
+
+
+header{
+
+    background:#003366;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+
+nav ul li{
+
+    display:inline-block;
+    margin-left:20px;
+
+}
+
+nav ul li a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+#welcome{
+
+    text-align:center;
+    padding:60px;
+    background:white;
+
+}
+
+#welcome button{
+
+    margin-top:20px;
+    padding:12px 30px;
+    background:#007BFF;
+    color:white;
+    border:none;
+
+
+}
+
+
+.course-container{
+
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+
+
+}
+
+.course-card{
+
+    background:white;
+    padding:15px;
+    position:relative;
+    
+}
+
+
+
+.notice-box{
+
+    height:180px;
+    overflow:auto;
+    background:white;
+    border:2px solid gray;
+    padding:20px;
+
+}
+
+.campus-container{
+
+    position:relative;
+    max-width:900px;
+    margin:auto;
+
+}
+
+.image-box img{
+
+    width:100%;
+    display:block;
+
+}
+
+.info-box{
+
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    background:white;
+    padding:20px;
+    width:300px;
+    border-left:5px solid blue;
+    z-index:10;
+
+}
+
+legend{
+    margin-left: 350px;
+    color: red;
+    font-weight:bold;
+    border-radius:5px;
+    
+}
+
+.contact-btn{
+
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:green;
+    color:white;
+    padding:15px 20px;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+
+footer{
+
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+
+}
